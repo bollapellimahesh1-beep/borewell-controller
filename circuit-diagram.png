@@ -1,0 +1,13 @@
+                 ARDUINO UNO
+              ┌───────────────┐
+Borewell ────►│ D2            │
+Sensor       │               │
+Tank LOW ───►│ D3            │
+Sensor       │               │
+Tank FULL ──►│ D4            │
+Sensor       │               │
+              │ D8 ───────────┼──► Relay/Contactor ──► Pump
+              │ D9 ───────────┼──► Buzzer
+              │ D10 ──────────┼──► Green LED
+              │ D11 ──────────┼──► Red LED
+              └───────────────┘
